@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url('baked-1.png');
+  background-position: center;
+  background: pink;
+  background-size: cover;
+}
+.cake {
+  border: 1px solid rgb(255, 0, 157);
+  border-radius: 10px;
+  box-shadow: 10px 10px black;
+  background-color: black;
+  height: 200px;
+  width: 275px;
+  transition: ease all 0.4s;
+  overflow: hidden;
+}
+
+.cake .cake-img {
+  height: 150px;
+
+  background: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.562));
+
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+.cake .cake-data {
+  background-color: white;
+}
+.cake input {
+  margin-top: 1px;
+
+  height: 40px;
+  border: 0;
+  background: transparent;
+  padding-left: 2px;
+  margin-bottom: 10px;
+}
+.cake .name {
+  padding-left: 10px;
+  width: 210px;
+  font-size: 20px;
+}
+.cake .price {
+  font-size: 15px;
+  width: 45px;
+}
+.cake input:focus {
+  border: 0;
+  outline: 0;
+}
+.cake:hover {
+  box-shadow: 6px 6px black;
+ transform: scale(1.1) rotate(-2deg);
+
+}
+.cake-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-flow: wrap;
+  /* padding: 10px; */
+}
+.cake-holder {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-flow: wrap;
+  transition: ease all 0.5s;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.discription {
+  padding: 10px;
+  font-size: 20px;
+}
+.hide
+{
+  display: none;
+}
